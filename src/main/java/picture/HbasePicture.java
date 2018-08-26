@@ -24,7 +24,7 @@ import org.apache.hadoop.io.Text;
  */
 public class HbasePicture {
     static SequenceFile.Writer  writer = null;
-
+    //****///
     public static void main(String[] args) throws Exception {
         //输入文件夹路径  输出文件夹路径
         System.setProperty("HADOOP_USER_NAME","centos");
